@@ -1,48 +1,9 @@
 # TACTICAL BREACH
 
-A tactical first-person shooter built with Three.js.
+A tactical first-person shooter built with Three.js. Wave-based combat, two weapons, enemy AI, grenades, minimap, and procedural audio.
 
-[![make.fun bounty](https://make.fun/b/threejs-fps-02/badge.svg)](https://make.fun/bounty/threejs-fps-02)
-[![rank](https://make.fun/b/threejs-fps-02/rank/princeflexzy0%2Ftactical-breach-fps.svg)](https://make.fun/bounty/threejs-fps-02)
-[![reward](https://make.fun/b/threejs-fps-02/reward/princeflexzy0%2Ftactical-breach-fps.svg)](https://make.fun/bounty/threejs-fps-02)
+[![make.fun · threejs-fps-02](https://make.fun/badge/threejs-fps-02.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![rank](https://make.fun/badge/threejs-fps-02/princeflexzy0/tactical-breach-fps/rank.svg)](https://make.fun/bounty/threejs-fps-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![reward](https://make.fun/badge/threejs-fps-02/princeflexzy0/tactical-breach-fps/reward.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
 
-## Play
-
-Open `index.html` in any modern browser — no build step needed.
-
-## Controls
-
-| Key | Action |
-|-----|--------|
-| WASD | Move |
-| Mouse | Look |
-| LMB | Shoot |
-| R | Reload |
-| F | Switch weapon |
-| Q | Throw grenade |
-| Shift | Sprint |
-| Space | Jump |
-
-## Features
-
-- Full tactical FPS with Three.js
-- Two weapons: Assault Rifle + Pistol
-- Enemy AI with state machine (idle / chase / attack / hurt / dead)
-- Wave-based combat — enemies get harder each wave
-- Procedural audio (gunshots, footsteps, explosions, reloads)
-- Minimap, kill feed, health bar, ammo HUD
-- Grenade with explosion radius damage
-- Pointer Lock controls, weapon bob, screen shake
-- Fog, dynamic lighting, shadow maps
-
-## Run
-
-```bash
-# No install needed — just open index.html
-open index.html
-
-# Or serve locally:
-npx serve .
-```
-
-Built with [Three.js](https://threejs.org) r165 — entry for [make.fun/bounty/threejs-fps-02](https://make.fun/bounty/threejs-fps-02).
+Open `index.html` in any browser. Built for [make.fun](https://make.fun/bounty/threejs-fps-02).
