@@ -1,0 +1,153 @@
+{
+  "format": "agent-fun/kit/v1",
+  "competition": "threejs-fps-02",
+  "phase": "dev",
+  "bundle_sha256": "a28f8f0cd44b508f8943fefd37473d6ee52235c73d44d11c74587aae3f7763c2",
+  "dataset_sha256": null,
+  "harness_version": "harness@5ec84287154bf8ef8092d6258b76f299410dfa548629ebfc8ad71c664f23e85f node v26.13.1",
+  "scorer_version": "scorer@b9812df2e4c17a38adece77404ac20b9026a96928e9bf00255cd1744d64a3009 program@7cae11530a10011e1a16b93ea6673c92d10632f79b3ee0aafc02bf7dcdf781ad",
+  "pricing_rev": "45c98b74084333decd95ac81760727274d419136ce7bd158336eaf0667c03491",
+  "protocol": "agent-fun/program/v1",
+  "files": [
+    {
+      "path": "RULES.txt",
+      "sha256": "c52899e64e6613677931f29f5a607389962816fd147a9dcacca2f38e896de8a7",
+      "size": 84816
+    },
+    {
+      "path": "cli/makefun.mjs",
+      "sha256": "7adbf710d5f80dd756a811ef8b7d9e686bbe78d7fcca203ffb416d572c10231a",
+      "size": 14086957
+    },
+    {
+      "path": "cli/site.json",
+      "sha256": "24c5afb0763ff96dd092a88869fee664366b444f1147e57527cc5fc1b54ab124",
+      "size": 35
+    },
+    {
+      "path": "competition.yaml",
+      "sha256": "b4b0160a5150b49617acdf15e49bf864d93813b397797b80aed870fdd8a95b5b",
+      "size": 61312
+    },
+    {
+      "path": "harness/CODE.sha256",
+      "sha256": "f9c6f5dba64ae2612c4c4927936bdc53a7e668ea955519d1f76baecc30ab025c",
+      "size": 15592
+    },
+    {
+      "path": "harness/SOURCES.sha256",
+      "sha256": "fddaa2e01ebedcf710f817e7a5a753669ed87dab832d0dd7089cec0d809ef5e6",
+      "size": 15592
+    },
+    {
+      "path": "harness/harness-src.tar.gz",
+      "sha256": "1498132949c8e3488fafa193551941eaae937f03606d8036e871c6bfda542802",
+      "size": 2136630
+    },
+    {
+      "path": "harness/harness-src.tar.gz.sha256",
+      "sha256": "ca5ce2890a893bafd7287ee2e0c17c893fb982c3d8b856a0005304cb0035e17a",
+      "size": 85
+    },
+    {
+      "path": "starter/LICENSE",
+      "sha256": "babfa6d8ce941605e507993e42790165d6c98c48365eedbdcdd5350ed6e0ed55",
+      "size": 1095
+    },
+    {
+      "path": "starter/game/index.html",
+      "sha256": "ab43497ec0057cf33ae7200b4d52cb2695bc621569b27f3c1d00f7adad2c8dd2",
+      "size": 5522
+    },
+    {
+      "path": "starter/game/src/hud.js",
+      "sha256": "bd20b8de66ad27bbdb26fba766abdac30b4658c76fdf8bd977ef80a582beb5dd",
+      "size": 2376
+    },
+    {
+      "path": "starter/game/src/input.js",
+      "sha256": "5ca3d06a090681008442293ee022209766e8012411af7ca23a360be81f7d8c1b",
+      "size": 1566
+    },
+    {
+      "path": "starter/game/src/main.js",
+      "sha256": "bd3621d8e35ac233c64b27491ae7e610cdda06c3447f60cabe76ed58ffe34295",
+      "size": 6686
+    },
+    {
+      "path": "starter/game/src/palette.js",
+      "sha256": "c116b8cc7430c57f0f42d82cd06844cf50f7a28488073953001034f56e4d73d1",
+      "size": 430
+    },
+    {
+      "path": "starter/game/src/player.js",
+      "sha256": "f7f7fec506f1888c6d8ef42753f29ef7fb7b91aa6df5dcf9ea98d906a627a7d3",
+      "size": 4321
+    },
+    {
+      "path": "starter/game/src/targets.js",
+      "sha256": "3ae153b3d69ff162e496e2a8b2281da8741a0b413256fa9014fe86cddfbe80a7",
+      "size": 3644
+    },
+    {
+      "path": "starter/game/src/weapon.js",
+      "sha256": "522b6c2e76cc0750c90fa0329aa04c958d0a67edad7559c9e51965049286d369",
+      "size": 3334
+    },
+    {
+      "path": "starter/game/src/world.js",
+      "sha256": "29da12158a979f7ae466804a93262c0b6eb382c18f04e132943b41ba45229226",
+      "size": 2824
+    },
+    {
+      "path": "starter/game/vendor/three/LICENSE",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "size": 1081
+    },
+    {
+      "path": "starter/game/vendor/three/three.core.min.js",
+      "sha256": "613e370f76638fdef83926642bf256dc9615684922de1ce1f63a8583e5d78578",
+      "size": 1474799
+    },
+    {
+      "path": "starter/game/vendor/three/three.module.min.js",
+      "sha256": "ef510bae547ab3789d6ed543333a8bf42510a8c70743b766c4e19039b976c26b",
+      "size": 658908
+    },
+    {
+      "path": "starter/main.ts",
+      "sha256": "632eeb2c9be16d21e269d7f61ce1dd6d89db249fb5e00624e289b8f4bd8fe5de",
+      "size": 1963
+    },
+    {
+      "path": "starter/screenshots/1-start.jpg",
+      "sha256": "85f2c859caa34531ca16a152eea1dd450f3b4fe676c41f7b2898f0cb353c2114",
+      "size": 24204
+    },
+    {
+      "path": "starter/screenshots/2-play.jpg",
+      "sha256": "b18e92efd4e5f27c4b1b09d28b322c3e4cff06a673514669ef652dc37a1c2147",
+      "size": 28039
+    },
+    {
+      "path": "starter/screenshots/3-end.jpg",
+      "sha256": "937430cd9fb94931ba3c220d05f9bbed3bdaebd3303a0d9f1f3b6e3b3707fc2f",
+      "size": 23652
+    },
+    {
+      "path": "starter/serve.ts",
+      "sha256": "1ee632909216acf8c066792916e0c8ce3585acde1eee72a9c85b8afaeadb7ed6",
+      "size": 2323
+    },
+    {
+      "path": "starter/shots.json",
+      "sha256": "098680a89ee08177f430ae09811dacd93085f81bf374c9bfc60f47e610a4a0cc",
+      "size": 177
+    },
+    {
+      "path": "starter/vendor/makefun-threejs.ts",
+      "sha256": "f9622210e6a0aed70d6f13273a24c9c4a661b5e272edf8fef21197fac6de7969",
+      "size": 55627
+    }
+  ]
+}
